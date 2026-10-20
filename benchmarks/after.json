@@ -1,0 +1,26 @@
+{
+  "mode": "after",
+  "simulationSeconds": 10,
+  "wallSeconds": 2.845,
+  "realTimeRatio": 3.51,
+  "meanStepMs": 4.74,
+  "p95StepMs": 10.54,
+  "maxStepMs": 14.38,
+  "maxBodies": 1286,
+  "final": {
+    "engine": "Rapier 0.19.3",
+    "collisionMs": 0.439,
+    "solverMs": 0.2051,
+    "worldMs": 1,
+    "bodies": 1286,
+    "components": 1832,
+    "sleeping": 1218,
+    "frozen": 1218,
+    "awake": 68,
+    "colliders": 1340,
+    "secondaryImpacts": 202,
+    "pendingCollapse": 0,
+    "simulationTime": 10.000000000000076,
+    "steps": 1
+  }
+}

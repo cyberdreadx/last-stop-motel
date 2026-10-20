@@ -1,0 +1,6 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import * as THREE from 'three';
+import { RenderBatches } from '../batches.js';
+test('batch buffers grow across multiple batches and reset removes all old rendering',()=>{const scene=new THREE.Scene(),renderer=new RenderBatches(scene),mat=new THREE.MeshStandardMaterial();renderer.create(mat,30);for(let i=0;i<40;i++){const g=new THREE.BoxGeometry().toNonIndexed(),mesh=new THREE.Mesh(g,mat);mesh.position.set(i,0,0);renderer.add(mesh)}assert.ok(renderer.all.length>=2);assert.ok(scene.children.length>=2);renderer.reset([]);assert.equal(scene.children.length,0);assert.equal(renderer.known.size,0)});
+test('unchanged debris matrices are not uploaded again',()=>{const scene=new THREE.Scene(),renderer=new RenderBatches(scene),mat=new THREE.MeshStandardMaterial(),mesh=new THREE.Mesh(new THREE.BoxGeometry(),mat);mesh.userData.transformVersion=1;renderer.reset([mesh]);const texture=mesh.userData.renderRefs[0].batch._matricesTexture,version=texture.version;renderer.sync([mesh],[{mesh}]);assert.equal(texture.version,version);mesh.position.x=1;mesh.userData.transformVersion++;renderer.sync([mesh],[{mesh}]);assert.equal(texture.version,version+1);assert.ok(texture.updateRanges.length>0);renderer.reset([])});

@@ -1,0 +1,64 @@
+{
+  "evs_cap": 20,
+  "type": 0,
+  "tags": [
+    "sand",
+    "dirt",
+    "rock",
+    "desert",
+    "desolate",
+    "sun"
+  ],
+  "date_published": 1506981840,
+  "name": "Goegap",
+  "old_id": 28,
+  "coords": [
+    -29.670775,
+    17.997362
+  ],
+  "date_taken": 1504182780,
+  "authors": {
+    "Greg Zaal": "All"
+  },
+  "sponsors": [
+    {
+      "url": "https://www.idin-jewellery.co.uk/",
+      "name": "Idin Jewellery"
+    },
+    {
+      "url": "http://www.patreon.com/homoeros",
+      "name": "Homoeros"
+    }
+  ],
+  "files_hash": "e980029c8ab27926ea24f1f222c64948a689fa5b",
+  "max_resolution": [
+    16384,
+    8192
+  ],
+  "categories": [
+    "outdoor",
+    "nature",
+    "midday",
+    "clear",
+    "high contrast",
+    "natural light",
+    "collection: namaqualand"
+  ],
+  "description": "Free 16K unclipped HDRI: clear midday desert sun with natural, high-contrast lighting, hard shadows and warm sandy rock tones, dry, desolate mood.",
+  "category_id": "17f5bde9-351f-5d8d-892e-b92f33187f86",
+  "category": "Desert & Arid/Karoo & Scrubland/Rocky Outcrops",
+  "collections": [
+    "namaqualand"
+  ],
+  "attributes": {
+    "time_of_day": "midday",
+    "weather": "clear",
+    "light_type": "natural",
+    "contrast": "high",
+    "environment": "outdoor",
+    "sky_view": "open"
+  },
+  "img_version": "fc1866ea",
+  "download_count": 238944,
+  "thumbnail_url": "https://cdn.polyhaven.com/asset_img/thumbs/goegap.png?width=256&height=256&format=webp&v=fc1866ea"
+}

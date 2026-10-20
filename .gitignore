@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.npm-cache/
+*.log
+
+# Local QA screenshots and machine-only benchmark captures
+/*preview.png
+/mobile-loading-fixed.png
+/optimized-destruction.png

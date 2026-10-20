@@ -1,0 +1,11 @@
+{
+  "mode": "before",
+  "simulationSeconds": 10,
+  "wallSeconds": 9.772,
+  "realTimeRatio": 1.02,
+  "meanStepMs": 16.28,
+  "p95StepMs": 22.58,
+  "maxStepMs": 30.66,
+  "maxBodies": 1317,
+  "final": {"bodies": 1317, "components": 1863, "sleeping": 108, "awake": 1209, "secondaryImpacts": 252, "pendingCollapse": 0}
+}

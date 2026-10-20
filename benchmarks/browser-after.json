@@ -1,0 +1,18 @@
+{
+  "benchmark": {
+    "complete": true,
+    "wallSeconds": 18.01,
+    "simulationSeconds": 17.97,
+    "simulationRate": 1,
+    "meanFps": 36.39,
+    "p95FrameMs": 33.9,
+    "p95PhysicsStepMs": 12.5,
+    "peakBodies": 1313
+  },
+  "textures": {
+    "wall": 4096,
+    "asphalt": 4096,
+    "sand": 4096,
+    "hdr": 8192
+  }
+}
